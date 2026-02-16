@@ -207,6 +207,213 @@ Q9)
         }
 
 
+
+
+Q10)
+                * * * * *
+                * - - - *
+                * - - - *
+                * - - - *
+                * * * * *
+
+        int n=5;
+        for (int i=0;i<n;i++){
+            for (int j=0;j<n;j++){
+                if(i==0||j==0||j==n-1||i==n-1)
+                {
+                    System.out.print("*"+" ");
+                }
+                else {
+                    System.out.print("-"+" ");
+                }
+            }
+            System.out.println();
+        }
+
+
+
+
+
+        Q11)
+
+* * * * *
+*       *
+*       *
+*       *
+* * * * *
+
+
+
+        int n=5;
+        for (int i=0;i<n;i++){
+            for (int j=0;j<n;j++){
+                if(i==0||j==0||j==n-1||i==n-1)
+                {
+                    System.out.print("*"+" ");
+                }
+                else {
+                    System.out.print(" "+" ");
+                }
+            }
+            System.out.println();
+        }
+ Q12)
+
+* * * * *
+*   *   *
+* * * * *
+*   *   *
+* * * * *
+
+    int n=5;
+        for (int i=0;i<n;i++){
+            for (int j=0;j<n;j++){
+                if(i==0||j==0||j==n-1||i==n-1||i==n/2||j==n/2)
+                {
+                    System.out.print("*"+" ");
+                }
+                else {
+                    System.out.print(" "+" ");
+                }
+            }
+            System.out.println();
+        }
+
+Q13)
+
+principle diagonal
+
+        int n=7;
+        for (int i=0;i<n;i++){
+            for (int j=0;j<n;j++){
+                if(i==j)
+                {
+                    System.out.print(" "+" ");
+                }
+                else {
+                    System.out.print("*"+" ");
+                }
+            }
+            System.out.println();
+        }
+
+
+Q14) secondary diagonal
+
+
+        int n=7;
+        for (int i=0;i<n;i++){
+            for (int j=0;j<n;j++){
+                if(i+j==n-1)
+                {
+                    System.out.print(" "+" ");
+                }
+                else {
+                    System.out.print("*"+" ");
+                }
+            }
+            System.out.println();
+        }
+
+
+
+Q15)
+
+*           *
+  *       *
+    *   *
+      *
+    *   *
+  *       *
+*           *
+
+        int n=7;
+        for (int i=0;i<n;i++){
+            for (int j=0;j<n;j++){
+                if(i==j ||j+i==n-1)
+                {
+                    System.out.print("*"+" ");
+                }
+                else {
+                    System.out.print(" "+" ");
+                }
+            }
+            System.out.println();
+        }
+
+
+
+      Q16)
+
+ * * * * * * *
+  *       *
+    *   *
+      *
+    *   *
+  *       *
+* * * * * * *
+
+
+        int n=7;
+        for (int i=0;i<n;i++){
+            for (int j=0;j<n;j++){
+                if(i==0||i==n-1||i==j ||j+i==n-1)
+                {
+                    System.out.print("*"+" ");
+                }
+                else {
+                    System.out.print(" "+" ");
+                }
+            }
+            System.out.println();
+        }
+
+
+
+q17)
+
+*   *   *
+  * * *
+* * * * *
+  * * *
+*   *   *
+
+        int n=5;
+        for (int i=0;i<n;i++){
+            for (int j=0;j<n;j++){
+                if(i==j||j==n/2||i==n/2||i+j==n-1)
+                {
+                    System.out.print("*"+" ");
+                }
+                else {
+                    System.out.print(" "+" ");
+                }
+            }
+            System.out.println();
+        }
+
+
+q18)
+  * * *
+*   *   *
+* *   * *
+*   *   *
+  * * *
+        int n=5;
+        for (int i=0;i<n;i++){
+            for (int j=0;j<n;j++){
+                if(i==j ||j+i==n-1)
+                {
+                    System.out.print(" "+" ");
+                }
+                else {
+                    System.out.print("*"+" ");
+                }
+            }
+            System.out.println();
+        }
+
+
  */
     }
 }
