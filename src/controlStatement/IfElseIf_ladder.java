@@ -86,4 +86,61 @@ public class IfElseIf_ladder {
             System.out.println("fail");
         }
     }
+
+    public static class DoWhileLoop {
+        public static void main(String[] args) {
+         /*
+
+     Q1)
+          int a=1;
+            do{
+                System.out.println(a+":java");
+                a++;
+            }
+            while   (a<=5);
+     o/p :
+            1:java
+            2:java
+            3:java
+            4:java
+            5:java
+
+
+     Q2)
+            int a=7;
+            do{
+                System.out.println(a+":java");
+                a++;
+            }
+            while   (a<=5);
+
+    o/p: 7:java
+
+
+
+    Q)
+
+
+
+
+
+            int x=5;
+            do{
+                System.out.println(x+":java");
+                x--;
+            }while(x>=1);
+
+
+      o/p:
+            5:java
+            4:java
+            3:java
+            2:java
+            1:java
+
+
+
+          */
+        }
+    }
 }
