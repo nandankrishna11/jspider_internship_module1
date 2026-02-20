@@ -1,6 +1,6 @@
 package METHODS;
 
-public class Program5 {
+public class P5_FuncInFunc {
     static void test(){
         System.out.println("test starts");
         System.out.println("test ends");

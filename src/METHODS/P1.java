@@ -1,6 +1,6 @@
 package METHODS;
 
-public class Program1 {
+public class P1 {
     static void test(){
         System.out.println("Executing text()....");
     }

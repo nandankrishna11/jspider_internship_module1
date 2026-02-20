@@ -1,6 +1,6 @@
 package METHODS;
 
-public class Program2 {
+public class P2 {
     static void help(){
         System.out.println("Executing help()....");
     }

@@ -1,6 +1,6 @@
 package METHODS;
 
-public class Program4 {
+public class P4_conditionInMethod {
     static void verify(){
         System.out.println("executing verify()....");
         int a=10;

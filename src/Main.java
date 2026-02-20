@@ -1,4 +1,4 @@
-import static METHODS.Program1.play;
+import static METHODS.P1.play;
 
 
 public class Main {
