@@ -12,5 +12,4 @@ public class AverageOfArray {
             System.out.println("Average="+average);
         }
     }
-
 }

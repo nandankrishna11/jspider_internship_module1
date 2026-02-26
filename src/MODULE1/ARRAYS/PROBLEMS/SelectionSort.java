@@ -20,15 +20,10 @@ public class SelectionSort {
                         int temp = arr[i];
                         arr[i] = arr[j];
                         arr[j] = temp;
-
-
                     }
                 }
             }
             System.out.println("after sorting");
             display(arr);
-
-
-
         }
 }

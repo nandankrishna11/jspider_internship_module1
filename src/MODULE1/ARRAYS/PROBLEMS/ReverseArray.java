@@ -7,6 +7,4 @@ public class ReverseArray {
             System.out.print(arr[i]+" ");
         }
     }
-
-
 }
