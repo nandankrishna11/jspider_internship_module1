@@ -15,7 +15,6 @@ buying 12 tickets, failed due to insufficient ticket inn counter
  */
 
 
-import java.sql.SQLOutput;
 
 class Ticket_counter {
     int counterNo;
