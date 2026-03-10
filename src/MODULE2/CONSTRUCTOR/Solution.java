@@ -21,6 +21,7 @@ class Ticket_counter {
     int counterNo;
     int noOfTickets;
     String officerName;
+    static int sumOfTciket=0;
     Ticket_counter(int counterNo, int noOfTickets, String officerName){
         this.counterNo=counterNo;
         this.noOfTickets=noOfTickets;
@@ -35,16 +36,19 @@ class Ticket_counter {
     }
 
     void availableTickets(){
-        this.noOfTickets+=noOfTickets;
-        System.out.println("Available tickets ="+noOfTickets);
+        sumOfTciket+=noOfTickets;
+        System.out.println("Available tickets ="+sumOfTciket);
     }
 
     void buyTickets(int n){
-        if (noOfTickets>n){
-            System.out.println("success");
+        System.out.println("Buying "+n+"tickets");
+        if (sumOfTciket>n){
+            System.out.println(n+" ticket buying success");
+            sumOfTciket=sumOfTciket-n;
+
         }
         else {
-            System.out.println("available ticket should be less than "+noOfTickets);
+            System.out.println("available ticket should be less than "+sumOfTciket);
         }
     }
 }
@@ -52,10 +56,18 @@ public class Solution{
     public static void main(String[] args) {
         Ticket_counter t1=new Ticket_counter(1,2,"nandan");
         t1.details();
-        Ticket_counter t2=new Ticket_counter(2,2,"Raju");
+        Ticket_counter t2=new Ticket_counter(2,2,"raju");
         t2.details();
-        Ticket_counter t3=new Ticket_counter(1,3,"Mohan");
+        Ticket_counter t3=new Ticket_counter(1,3,"mohan");
+        t3.details();
+
+        t1.availableTickets();
+        t2.availableTickets();
         t3.availableTickets();
+
         t3.buyTickets(5);
+        t3.buyTickets(7);
+        t3.buyTickets(1);
+
     }
 }
