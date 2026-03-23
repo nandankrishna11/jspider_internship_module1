@@ -27,6 +27,8 @@ class Ticket_counter {
         this.officerName=officerName;
 
     }
+
+
    void details(){
         System.out.println("Counter number= "+counterNo );
         System.out.println("Number of tickets= "+noOfTickets);
