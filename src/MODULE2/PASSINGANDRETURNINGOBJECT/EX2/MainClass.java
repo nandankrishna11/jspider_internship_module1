@@ -10,6 +10,5 @@ public class MainClass {
         a2=Bank.createAccount();
         Bank.displayAccountInfo(a2);
         System.out.println("------------------------");
-
     }
 }
