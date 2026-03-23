@@ -1,8 +1,8 @@
-package MODULE2.PASSINGANDRETURNINGOBJECT;
+package MODULE2.PASSINGANDRETURNINGOBJECT.EX1;
 
 public class MainClass1 {
     public static void main(String[] args) {
-        Employee e1=Hr.createEmployee();
+        Employee e1= Hr.createEmployee();
         Hr.displayEmployeeDetails(e1);
         System.out.println("-----------------------------");
         Employee e2=Hr.createEmployee();

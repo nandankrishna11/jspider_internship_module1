@@ -1,4 +1,4 @@
-package MODULE2.PASSINGANDRETURNINGOBJECT;
+package MODULE2.PASSINGANDRETURNINGOBJECT.EX1;
 
 public class Employee {
     int id;
