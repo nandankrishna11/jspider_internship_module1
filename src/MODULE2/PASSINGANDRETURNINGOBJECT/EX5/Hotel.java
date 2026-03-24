@@ -1,6 +1,6 @@
 package MODULE2.PASSINGANDRETURNINGOBJECT.EX5;
 
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 public class Hotel {
