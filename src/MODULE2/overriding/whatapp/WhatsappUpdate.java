@@ -22,7 +22,7 @@ class Whatsapp3 extends Whatsapp2{
 
 }
 public class WhatsappUpdate {
-    public static void main(String[] args) {a
+    public static void main(String[] args) {
         Whatsapp1 w1=new Whatsapp1();
         w1.readReceipt();
         Whatsapp1 w2=new Whatsapp2();
