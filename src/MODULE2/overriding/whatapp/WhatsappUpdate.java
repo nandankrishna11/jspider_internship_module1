@@ -28,7 +28,7 @@ public class WhatsappUpdate {
         Whatsapp1 w2=new Whatsapp2();
         w2.readReceipt();
         Whatsapp1 w3=new Whatsapp3();
-        w2.readReceipt();
+        w3.readReceipt();
         Whatsapp1 w4=new Whatsapp3();
         w4.readReceipt();
 
