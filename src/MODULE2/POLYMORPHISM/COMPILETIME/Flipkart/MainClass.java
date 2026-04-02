@@ -1,4 +1,4 @@
-package MODULE2.POLYMORPHISM.COMPILETIME;
+package MODULE2.POLYMORPHISM.COMPILETIME.Flipkart;
 
 public class MainClass {
     public static void main(String[] args) {

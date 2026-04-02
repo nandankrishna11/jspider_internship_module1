@@ -1,4 +1,4 @@
-package MODULE2.POLYMORPHISM.COMPILETIME;
+package MODULE2.POLYMORPHISM.COMPILETIME.Flipkart;
 
 public class Flipkart {
     void payment(){
