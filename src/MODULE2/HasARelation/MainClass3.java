@@ -11,8 +11,8 @@ class Beta{
     }
 }
 class Gamma{
-    Alpha a=new Alpha();
-    Beta b;
+    Alpha a=new Alpha();//composition
+    Beta b;//aggregation
     Gamma(Beta b){
         this.b=b;
     }
