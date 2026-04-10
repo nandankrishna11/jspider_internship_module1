@@ -11,6 +11,7 @@ class Child extends Parent{
     void watchTv(){
         System.out.println("music/sports");
     }
+
 }
 public class Mainclass1 {
     public static void main(String[] args) {
